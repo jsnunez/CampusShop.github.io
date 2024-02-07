@@ -76,6 +76,8 @@ border-radius: 5%;
     flex-direction: column;
     overflow-x: hidden;
     overflow-y: scroll;
+    background-color: #DDF2FD;
+    border-radius: 5%;
 }
 .product2  {
     width: 60vw;
@@ -149,3 +151,25 @@ margin-right: 2vw;
     color: black;
 
 }
+#carnum1{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;   
+ padding-right: 30vw;
+    background-color: #DDF2FD;
+}
+#carnum1 a{
+    color: black;
+}
+
+#carnum1 p{
+   background-color: #DDF2FD;
+height: 3vh;
+width: 3vw;
+text-align: center;
+padding-top: 1vh;
+border: 1px solid #164863;
+border-radius: 10%;
+        }
