@@ -1,11 +1,20 @@
 *{
-    border: 1px solid gray;
+    
+ 
 }
 #contenedor{
     display: flex;
-
+    background-color: #164863
 }
-
+h1{
+    color: #DDF2FD;
+}
+a{
+    color: #9BBEC8;
+}
+a :hover{
+    color: #427D9D
+}
 #lateral{
     display: flex;
     width: 30vw;
@@ -13,23 +22,28 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    padding-left: 5vw;
+    margin-left: 5vw;
 }
 #carnum{
     width: 20vw;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    }
-#carnum input{
-    width: 2vw;
-    height: 2vh;
+    justify-content: space-between;   
+}
+#carnum p{
+   background-color: #DDF2FD;
+height: 3vh;
+width: 3vw;
+text-align: center;
+padding-top: 1vh;
+
+border-radius: 5%;
         }
 #listaproductos{
     width: 60vw;
-    height: 80vh;
-    margin-top: 5vh;
+    height: 70vh;
+    margin-top: 10vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,6 +51,8 @@
     align-content: space-between;
     overflow-x: hidden;
     overflow-y: scroll;
+    background-color: #DDF2FD;
+    border-radius: 5%;
 }
 .product  {
     width: 10vw;
@@ -50,15 +66,13 @@
 
 .imagenes img{
  
-    max-width: 8vw;
-    max-height: 20vh;
+    max-height: 12vh;
 }
 #listaproductos2{
     width: 60vw;
     height: 70vh;
     margin-top: 10vh;
     display: flex;
-    overflow-y: scroll;
     flex-direction: column;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -91,6 +105,47 @@
 
     justify-content: space-around;
 }
-.precios button{
-  
+#inferior{
+    display: flex;
+  margin-left: 2vw;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#pago{
+    display: flex;
+    margin-right: 2vw;
+    align-items: center;
+}
+#total{
+    display: flex;
+    height: 8vh;
+flex-direction: column;
+margin-right: 2vw;
+    justify-content: space-around;
+}
+#total p{
+    margin: 0;
+}
+.product3 {
+    width: 60vw;
+    margin: 2vw;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.activa{
+    width: 35vw;
+    background-color: #DDF2FD;
+    color: black;
+    border: 1px  solid gray;
+
+    border-radius: 5%;
+    
+}
+.activa a{
+    color: black;
+
 }
