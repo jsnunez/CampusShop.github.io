@@ -1,0 +1,55 @@
+*{
+    border: 1px solid gray;
+}
+#contenedor{
+    display: flex;
+
+}
+
+#lateral{
+    display: flex;
+    width: 30vw;
+    height: 90vh;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 5vw;
+}
+#carnum{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    }
+#carnum input{
+    width: 2vw;
+    height: 2vh;
+        }
+#listaproductos{
+    width: 60vw;
+    height: 70vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.product  {
+    width: 10vw;
+    margin: 2vw;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenes img{
+ 
+    max-width: 8vw;
+    max-height: 20vh;
+}
