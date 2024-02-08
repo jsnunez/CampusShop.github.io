@@ -31,20 +31,14 @@ a :hover {
 
     color: #427D9D;
 }
-#lateral p :hover {
 
-    color: black;
-}
-#lateral p  {
-
-    color: black;
-}
 #carnum {
     width: 20vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    color: black;
 }
 
 #carnum p {
@@ -223,7 +217,9 @@ a :hover {
 #carnum1 a {
     color: black;
 }
-
+#carnum1  {
+    color: black;
+}
 .product3  {
     padding-left: 10vw;
 
