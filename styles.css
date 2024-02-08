@@ -25,6 +25,11 @@ a :hover {
     align-items: flex-start;
     justify-content: space-around;
     margin-left: 5vw;
+    color: #9BBEC8;
+}
+#lateral :hover {
+
+    color: #427D9D;
 }
 
 #carnum {
