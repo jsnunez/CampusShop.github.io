@@ -31,7 +31,14 @@ a :hover {
 
     color: #427D9D;
 }
+#lateral p :hover {
 
+    color: black;
+}
+#lateral p  {
+
+    color: black;
+}
 #carnum {
     width: 20vw;
     display: flex;
