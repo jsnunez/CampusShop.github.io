@@ -75,6 +75,7 @@ a :hover {
     border-radius: 5%;
     background-color: white;
     justify-content: space-between;
+   
 }
 
 .imagenes img {
@@ -134,7 +135,6 @@ a :hover {
 .precios {
     display: flex;
     width: 10vw;
-
     justify-content: space-around;
 }
 
