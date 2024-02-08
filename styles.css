@@ -42,8 +42,8 @@ border-radius: 5%;
         }
 #listaproductos{
     width: 60vw;
-    height: 70vh;
-    margin-top: 10vh;
+    height: 80vh;
+    margin-top: 1vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -54,6 +54,9 @@ border-radius: 5%;
     background-color: #DDF2FD;
     border-radius: 5%;
 }
+#titulo{
+margin-left: 3vw;
+}
 .product  {
     width: 10vw;
     margin: 2vw;
@@ -61,23 +64,28 @@ border-radius: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    border:1px solid #427D9D;
+    border-radius: 5%;
+background-color: white;
+    justify-content: space-between;
 }
 
 .imagenes img{
  
-    max-height: 12vh;
+    max-height: 15vh;
+    margin-top: 3vh;
 }
 #listaproductos2{
     width: 60vw;
-    height: 70vh;
-    margin-top: 10vh;
+    height: 80vh;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
     overflow-y: scroll;
     background-color: #DDF2FD;
     border-radius: 5%;
+    align-items: center;
 }
 .product2  {
     width: 60vw;
@@ -96,10 +104,16 @@ border-radius: 5%;
 }
 .datosp{
     width: 10vw;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 90%;
+    font-size: 70%;
+    text-align: center;
+    background-color: #9BBEC8;
+    border-radius: 5%;
+
+    justify-content: flex-end;
 }
 .precios{
     display: flex;
@@ -163,7 +177,9 @@ margin-right: 2vw;
 #carnum1 a{
     color: black;
 }
-
+.product3 H1{
+    color: black;
+}
 #carnum1 p{
    background-color: #DDF2FD;
 height: 3vh;
@@ -172,4 +188,11 @@ text-align: center;
 padding-top: 1vh;
 border: 1px solid #164863;
 border-radius: 10%;
+        }
+        #nombre{
+            max-width: 10vw;
+        }
+
+        button{
+            border-radius: 10%;
         }
