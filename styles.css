@@ -90,6 +90,7 @@ a :hover {
 .imagenes img {
 
     max-height: 15vh;
+    max-width: 90%;
     margin-top: 3vh;
 }
 
@@ -245,7 +246,10 @@ a :hover {
 button {
     border-radius: 10%;
     background-color: #427D9D;
+    width: 50%;
+    font-size: 100%;
 }
+
 #inferior button  {
     border-radius: 5%;
     background-color: #427D9D;
